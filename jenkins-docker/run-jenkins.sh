@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker rm -f jenkins
+
 docker run -d --name jenkins \
 --dns 172.16.0.200 \
 -p 8080:8080 \
