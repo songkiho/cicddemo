@@ -1,4 +1,5 @@
+.git/
 Jenkinsfile
 deploy-app.yml
 jenkins-docker/
-.git/
+gitlab/
